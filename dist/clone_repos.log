@@ -1,0 +1,51 @@
+[2025-10-03 10:22:49] === Start ===
+[2025-10-03 10:22:49] Arbeitsverzeichnis: C:\Temp\Test\ws_clone\dist
+[2025-10-03 10:22:49] Logfile: C:\Temp\Test\ws_clone\dist\clone_repos.log
+[2025-10-03 10:22:49] TARGET_DIR: C:\Temp
+[2025-10-03 10:22:49] RUN: ['git', '--version'] (cwd=None)
+[2025-10-03 10:22:49] STDOUT:
+git version 2.49.0.windows.1
+[2025-10-03 10:22:49] Repo 'WS-KI' existiert bereits → versuche 'git pull'.
+[2025-10-03 10:22:49] RUN: ['git', 'remote', 'set-url', 'origin', 'https://github.com/FHWN-Robotik/WS-KI.git'] (cwd=C:\Temp\WS-KI)
+[2025-10-03 10:22:49] RUN: ['git', 'fetch', '--all', '--prune'] (cwd=C:\Temp\WS-KI)
+[2025-10-03 10:22:50] RUN: ['git', 'reset', '--hard', 'origin/main'] (cwd=C:\Temp\WS-KI)
+[2025-10-03 10:22:50] STDOUT:
+HEAD is now at a016d2b Add files via upload
+[2025-10-03 10:22:50] Repo 'WS-KI' auf origin/main aktualisiert.
+[2025-10-03 10:22:50] Repo 'WS-IndRob' existiert bereits → versuche 'git pull'.
+[2025-10-03 10:22:50] RUN: ['git', 'remote', 'set-url', 'origin', 'https://github.com/FHWN-Robotik/WS-IndRob.git'] (cwd=C:\Temp\WS-IndRob)
+[2025-10-03 10:22:50] RUN: ['git', 'fetch', '--all', '--prune'] (cwd=C:\Temp\WS-IndRob)
+[2025-10-03 10:22:51] RUN: ['git', 'reset', '--hard', 'origin/main'] (cwd=C:\Temp\WS-IndRob)
+[2025-10-03 10:22:51] STDOUT:
+HEAD is now at def400e Delete Workshop_Robotik_CAD_Files.zip
+[2025-10-03 10:22:51] Repo 'WS-IndRob' auf origin/main aktualisiert.
+[2025-10-03 10:22:51] Repo 'WS-MobRob' existiert bereits → versuche 'git pull'.
+[2025-10-03 10:22:51] RUN: ['git', 'remote', 'set-url', 'origin', 'https://github.com/FHWN-Robotik/WS-MobRob.git'] (cwd=C:\Temp\WS-MobRob)
+[2025-10-03 10:22:51] RUN: ['git', 'fetch', '--all', '--prune'] (cwd=C:\Temp\WS-MobRob)
+[2025-10-03 10:22:51] RUN: ['git', 'reset', '--hard', 'origin/main'] (cwd=C:\Temp\WS-MobRob)
+[2025-10-03 10:22:51] STDOUT:
+HEAD is now at 02f8750 Add files via upload
+[2025-10-03 10:22:51] Repo 'WS-MobRob' auf origin/main aktualisiert.
+[2025-10-03 10:22:51] Alle Repos sind auf dem neuesten Stand.
+[2025-10-03 10:22:51] === Ende (OK) ===
+[2025-10-03 10:23:08] === Start ===
+[2025-10-03 10:23:08] Arbeitsverzeichnis: C:\Temp\Test\ws_clone\dist
+[2025-10-03 10:23:08] Logfile: C:\Temp\Test\ws_clone\dist\clone_repos.log
+[2025-10-03 10:23:08] TARGET_DIR: C:\Temp
+[2025-10-03 10:23:08] RUN: ['git', '--version'] (cwd=None)
+[2025-10-03 10:23:08] STDOUT:
+git version 2.49.0.windows.1
+[2025-10-03 10:23:08] Klonen: https://github.com/FHWN-Robotik/WS-KI.git → C:\Temp\WS-KI
+[2025-10-03 10:23:08] RUN: ['git', 'clone', 'https://github.com/FHWN-Robotik/WS-KI.git', 'C:\\Temp\\WS-KI'] (cwd=None)
+[2025-10-03 10:23:11] STDERR:
+Cloning into 'C:\Temp\WS-KI'...
+[2025-10-03 10:23:11] Klonen: https://github.com/FHWN-Robotik/WS-IndRob.git → C:\Temp\WS-IndRob
+[2025-10-03 10:23:11] RUN: ['git', 'clone', 'https://github.com/FHWN-Robotik/WS-IndRob.git', 'C:\\Temp\\WS-IndRob'] (cwd=None)
+[2025-10-03 10:23:12] STDERR:
+Cloning into 'C:\Temp\WS-IndRob'...
+[2025-10-03 10:23:12] Klonen: https://github.com/FHWN-Robotik/WS-MobRob.git → C:\Temp\WS-MobRob
+[2025-10-03 10:23:12] RUN: ['git', 'clone', 'https://github.com/FHWN-Robotik/WS-MobRob.git', 'C:\\Temp\\WS-MobRob'] (cwd=None)
+[2025-10-03 10:23:13] STDERR:
+Cloning into 'C:\Temp\WS-MobRob'...
+[2025-10-03 10:23:13] Alle Repos sind auf dem neuesten Stand.
+[2025-10-03 10:23:13] === Ende (OK) ===

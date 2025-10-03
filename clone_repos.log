@@ -1,0 +1,30 @@
+[2025-10-03 10:22:07] === Start ===
+[2025-10-03 10:22:07] Arbeitsverzeichnis: C:\Temp\Test\ws_clone
+[2025-10-03 10:22:07] Logfile: C:\Temp\Test\ws_clone\clone_repos.log
+[2025-10-03 10:22:07] TARGET_DIR: C:\Temp
+[2025-10-03 10:22:07] RUN: ['git', '--version'] (cwd=None)
+[2025-10-03 10:22:07] STDOUT:
+git version 2.49.0.windows.1
+[2025-10-03 10:22:07] Repo 'WS-KI' existiert bereits → versuche 'git pull'.
+[2025-10-03 10:22:07] RUN: ['git', 'remote', 'set-url', 'origin', 'https://github.com/FHWN-Robotik/WS-KI.git'] (cwd=C:\Temp\WS-KI)
+[2025-10-03 10:22:07] RUN: ['git', 'fetch', '--all', '--prune'] (cwd=C:\Temp\WS-KI)
+[2025-10-03 10:22:08] RUN: ['git', 'reset', '--hard', 'origin/main'] (cwd=C:\Temp\WS-KI)
+[2025-10-03 10:22:08] STDOUT:
+HEAD is now at a016d2b Add files via upload
+[2025-10-03 10:22:08] Repo 'WS-KI' auf origin/main aktualisiert.
+[2025-10-03 10:22:08] Repo 'WS-IndRob' existiert bereits → versuche 'git pull'.
+[2025-10-03 10:22:08] RUN: ['git', 'remote', 'set-url', 'origin', 'https://github.com/FHWN-Robotik/WS-IndRob.git'] (cwd=C:\Temp\WS-IndRob)
+[2025-10-03 10:22:08] RUN: ['git', 'fetch', '--all', '--prune'] (cwd=C:\Temp\WS-IndRob)
+[2025-10-03 10:22:08] RUN: ['git', 'reset', '--hard', 'origin/main'] (cwd=C:\Temp\WS-IndRob)
+[2025-10-03 10:22:08] STDOUT:
+HEAD is now at def400e Delete Workshop_Robotik_CAD_Files.zip
+[2025-10-03 10:22:08] Repo 'WS-IndRob' auf origin/main aktualisiert.
+[2025-10-03 10:22:08] Repo 'WS-MobRob' existiert bereits → versuche 'git pull'.
+[2025-10-03 10:22:08] RUN: ['git', 'remote', 'set-url', 'origin', 'https://github.com/FHWN-Robotik/WS-MobRob.git'] (cwd=C:\Temp\WS-MobRob)
+[2025-10-03 10:22:09] RUN: ['git', 'fetch', '--all', '--prune'] (cwd=C:\Temp\WS-MobRob)
+[2025-10-03 10:22:09] RUN: ['git', 'reset', '--hard', 'origin/main'] (cwd=C:\Temp\WS-MobRob)
+[2025-10-03 10:22:09] STDOUT:
+HEAD is now at 02f8750 Add files via upload
+[2025-10-03 10:22:09] Repo 'WS-MobRob' auf origin/main aktualisiert.
+[2025-10-03 10:22:09] Alle Repos sind auf dem neuesten Stand.
+[2025-10-03 10:22:09] === Ende (OK) ===
